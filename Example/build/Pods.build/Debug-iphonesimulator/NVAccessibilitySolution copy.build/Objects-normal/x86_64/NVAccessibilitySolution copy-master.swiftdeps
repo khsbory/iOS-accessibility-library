@@ -1,9 +1,0 @@
-version: "Apple Swift version 5.5.1 (swiftlang-1300.0.31.4 clang-1300.0.29.6)"
-options: "e5ab5e9422a53ba45284d18bd4db99f7d23d5b063ef0ee7da37f5de7eaca9930"
-build_start_time: [1637572630, 13870954]
-build_end_time: [1637572635, 671833992]
-inputs:
-  ? "/Users/kbiz/Documents/\u1106\u116E\u110C\u1166 \u1111\u1169\u11AF\u1103\u1165/sunigit/iOS-accessibility-library/NVAccessibilitySolution/Classes/NVAccessibility.swift"
-  : !private [1637572569, 628763198]
-  ? "/Users/kbiz/Documents/\u1106\u116E\u110C\u1166 \u1111\u1169\u11AF\u1103\u1165/sunigit/iOS-accessibility-library/NVAccessibilitySolution/Classes/ReplaceMe.swift"
-  : !private [1637572058, 605584621]

@@ -11,7 +11,6 @@
 		18F9A34973DD1F1C022AB4D8FBC17AE7 /* Pods-NVAccessibilitySolution_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DF54C7B059BE35B86F892F9D044E951 /* Pods-NVAccessibilitySolution_Example-dummy.m */; };
 		2E4325160433075ABE16382F7E3CD9DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		2F89B60F61FF0E8E98B9F0C80B2230A4 /* NVAccessibilitySolution-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 97FE97746201698602C99067367E7AF9 /* NVAccessibilitySolution-dummy.m */; };
-		860E62AE274B961600B06498 /* NVAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 860E62AD274B961600B06498 /* NVAccessibility.swift */; };
 		8AB28B09F0D54260DE68FE8BA6D5F319 /* Pods-NVAccessibilitySolution_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EC7FFC2B746ED1CDDF874807F6D420 /* Pods-NVAccessibilitySolution_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0AEBB343934652A6CF9C0B761A5FA9 /* NVAccessibilitySolution-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78CD2C2FD33E6FACD4ABDF18FBE6ACB /* NVAccessibilitySolution-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE3EE49146CEA5D10E36381A1C49FD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -42,21 +41,20 @@
 		17C48B7C763A9DD71EBB3D40198CAFD2 /* Pods-NVAccessibilitySolution_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVAccessibilitySolution_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		239902AE832BF6BEE201B32F38ADEE74 /* NVAccessibilitySolution-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NVAccessibilitySolution-prefix.pch"; sourceTree = "<group>"; };
 		32D4EEBDDD52B3328F46822610BE0370 /* Pods-NVAccessibilitySolution_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVAccessibilitySolution_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		3C8B69208CC460B50ABD22156D81DD1F /* Pods_NVAccessibilitySolution_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVAccessibilitySolution_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C8B69208CC460B50ABD22156D81DD1F /* Pods-NVAccessibilitySolution_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NVAccessibilitySolution_Example"; path = Pods_NVAccessibilitySolution_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4044E0C939D474040128DF64A002BE0D /* Pods-NVAccessibilitySolution_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVAccessibilitySolution_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4336DAF89440F2C38C0717E628675724 /* NVAccessibilitySolution-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVAccessibilitySolution-Info.plist"; sourceTree = "<group>"; };
 		48A4F4A4B13338E2741441A0C0D8C423 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NVAccessibilitySolution/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		49EC7FFC2B746ED1CDDF874807F6D420 /* Pods-NVAccessibilitySolution_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVAccessibilitySolution_Tests-umbrella.h"; sourceTree = "<group>"; };
 		69B4ACEDFCB304CADF7F77DDF11445DA /* Pods-NVAccessibilitySolution_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVAccessibilitySolution_Tests.modulemap"; sourceTree = "<group>"; };
 		6CB8C881BA4507033319C8EB7D9AAEA2 /* Pods-NVAccessibilitySolution_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVAccessibilitySolution_Tests-Info.plist"; sourceTree = "<group>"; };
-		6F9359F7D04F8C911333ADDD88808CD5 /* Pods_NVAccessibilitySolution_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVAccessibilitySolution_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6F9359F7D04F8C911333ADDD88808CD5 /* Pods-NVAccessibilitySolution_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-NVAccessibilitySolution_Tests"; path = Pods_NVAccessibilitySolution_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6F9BD9378D4BE9ABA653FFAC87BD8185 /* Pods-NVAccessibilitySolution_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVAccessibilitySolution_Example.modulemap"; sourceTree = "<group>"; };
 		70248DCAA5EC805A932F83048E1CE66B /* Pods-NVAccessibilitySolution_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NVAccessibilitySolution_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		77845C4283FC8EEF1EF354E59C0930BF /* Pods-NVAccessibilitySolution_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVAccessibilitySolution_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		7AF7504FD470993517F986D996249E2C /* Pods-NVAccessibilitySolution_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVAccessibilitySolution_Tests-dummy.m"; sourceTree = "<group>"; };
 		7DF54C7B059BE35B86F892F9D044E951 /* Pods-NVAccessibilitySolution_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NVAccessibilitySolution_Example-dummy.m"; sourceTree = "<group>"; };
-		860E62AD274B961600B06498 /* NVAccessibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NVAccessibility.swift; path = NVAccessibilitySolution/Classes/NVAccessibility.swift; sourceTree = "<group>"; };
 		865C4A135044E51FF86DAC8DB645EBBA /* Pods-NVAccessibilitySolution_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NVAccessibilitySolution_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		8F04677390740BA52E6475C384FD7B80 /* Pods-NVAccessibilitySolution_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVAccessibilitySolution_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		97FE97746201698602C99067367E7AF9 /* NVAccessibilitySolution-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NVAccessibilitySolution-dummy.m"; sourceTree = "<group>"; };
@@ -164,7 +162,6 @@
 		A9A01F61328B1EE0239C205E4EE50126 /* NVAccessibilitySolution */ = {
 			isa = PBXGroup;
 			children = (
-				860E62AD274B961600B06498 /* NVAccessibility.swift */,
 				48A4F4A4B13338E2741441A0C0D8C423 /* ReplaceMe.swift */,
 				0A66FB9804E9C01E37A32C5150DBFC94 /* Pod */,
 				DE63AC02DBD31089FA10EBE8A560E83C /* Support Files */,
@@ -196,8 +193,8 @@
 			isa = PBXGroup;
 			children = (
 				B621A9B63B50B4B948C4379CFB5A5D86 /* NVAccessibilitySolution.framework */,
-				3C8B69208CC460B50ABD22156D81DD1F /* Pods_NVAccessibilitySolution_Example.framework */,
-				6F9359F7D04F8C911333ADDD88808CD5 /* Pods_NVAccessibilitySolution_Tests.framework */,
+				3C8B69208CC460B50ABD22156D81DD1F /* Pods-NVAccessibilitySolution_Example */,
+				6F9359F7D04F8C911333ADDD88808CD5 /* Pods-NVAccessibilitySolution_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -272,7 +269,7 @@
 			);
 			name = "Pods-NVAccessibilitySolution_Tests";
 			productName = Pods_NVAccessibilitySolution_Tests;
-			productReference = 6F9359F7D04F8C911333ADDD88808CD5 /* Pods_NVAccessibilitySolution_Tests.framework */;
+			productReference = 6F9359F7D04F8C911333ADDD88808CD5 /* Pods-NVAccessibilitySolution_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		7F12BB78F0DF01EF6B0EBE083EE0E17B /* Pods-NVAccessibilitySolution_Example */ = {
@@ -291,7 +288,7 @@
 			);
 			name = "Pods-NVAccessibilitySolution_Example";
 			productName = Pods_NVAccessibilitySolution_Example;
-			productReference = 3C8B69208CC460B50ABD22156D81DD1F /* Pods_NVAccessibilitySolution_Example.framework */;
+			productReference = 3C8B69208CC460B50ABD22156D81DD1F /* Pods-NVAccessibilitySolution_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		AD546584E01DFCD65BA4A788A293ED7E /* NVAccessibilitySolution */ = {
@@ -320,20 +317,6 @@
 			attributes = {
 				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 1240;
-				TargetAttributes = {
-					6D32572A16A57A5D3DD6D485705380E0 = {
-						DevelopmentTeam = 3T5QFYSPG5;
-						ProvisioningStyle = Automatic;
-					};
-					7F12BB78F0DF01EF6B0EBE083EE0E17B = {
-						DevelopmentTeam = 3T5QFYSPG5;
-						ProvisioningStyle = Automatic;
-					};
-					AD546584E01DFCD65BA4A788A293ED7E = {
-						DevelopmentTeam = 3T5QFYSPG5;
-						ProvisioningStyle = Automatic;
-					};
-				};
 			};
 			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -402,7 +385,6 @@
 			files = (
 				2F89B60F61FF0E8E98B9F0C80B2230A4 /* NVAccessibilitySolution-dummy.m in Sources */,
 				B42D62A07CB2AD110B52BADED52C9DE8 /* ReplaceMe.swift in Sources */,
-				860E62AE274B961600B06498 /* NVAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,35 +411,27 @@
 			baseConfigurationReference = FC7E524BD4CE83A5285B869A0A3D72E3 /* Pods-NVAccessibilitySolution_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -518,7 +492,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -536,35 +510,27 @@
 			baseConfigurationReference = 77845C4283FC8EEF1EF354E59C0930BF /* Pods-NVAccessibilitySolution_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -576,35 +542,27 @@
 			baseConfigurationReference = 865C4A135044E51FF86DAC8DB645EBBA /* Pods-NVAccessibilitySolution_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -616,32 +574,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 98309DB8A27A3B187502E5959D2780B8 /* NVAccessibilitySolution.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution.modulemap";
 				PRODUCT_MODULE_NAME = NVAccessibilitySolution;
 				PRODUCT_NAME = NVAccessibilitySolution;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -654,32 +605,25 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CBC3BB640F8B944457C1724BE3ECBF32 /* NVAccessibilitySolution.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				GCC_PREFIX_HEADER = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MARKETING_VERSION = 0.1.0;
+				MARKETING_VERSION = 1.0.0;
 				MODULEMAP_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution.modulemap";
 				PRODUCT_MODULE_NAME = NVAccessibilitySolution;
 				PRODUCT_NAME = NVAccessibilitySolution;
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -739,7 +683,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -755,35 +699,27 @@
 			baseConfigurationReference = 17C48B7C763A9DD71EBB3D40198CAFD2 /* Pods-NVAccessibilitySolution_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = 3T5QFYSPG5;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
-				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
-				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
