@@ -1,0 +1,16 @@
+PODS:
+  - NVAccessibilitySolution (0.1.0)
+
+DEPENDENCIES:
+  - NVAccessibilitySolution (from `../`)
+
+EXTERNAL SOURCES:
+  NVAccessibilitySolution:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  NVAccessibilitySolution: 5f0f679e64e8f842d382dbab0f9a9f0a4b5a182a
+
+PODFILE CHECKSUM: 0ec64b854c3509e5b43887027ba10cf727be31a5
+
+COCOAPODS: 1.11.2
