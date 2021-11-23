@@ -8,13 +8,18 @@
 
 import UIKit
 
+enum VoiceOverMode {
+    case none
+    case running
+}
+
 class MainViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var exampleTitles: [String] = ["접근성 알림 데모"]
-    var exampleStoryBoardNames: [String] = ["AccessibilityNotification"]
-    var exampleStoryBoardIds: [String] = ["AccessibilityNotification"]
+    var exampleTitles: [String] = ["Drag&Drop Demo"]
+    var exampleStoryBoardNames: [String] = ["DragNDrop"]
+    var exampleStoryBoardIds: [String] = ["DragNDropMain"]
     
     //MARK: Lifecycle
     override func viewDidLoad() {
@@ -52,7 +57,7 @@ extension MainViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        print("cellForRowAt \(indexPath.row)")
+        
         guard let cell = tableView.dequeueReusableCell(withIdentifier: "MainTableViewCell", for: indexPath) as? MainTableViewCell else {
             fatalError("Expected a `\(MainTableViewCell.self)` but did not receive one.")
         }

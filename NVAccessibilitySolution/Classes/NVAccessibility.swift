@@ -25,9 +25,18 @@ public struct NVAccessibility {
     // MARK: Public func
     
     // Notification
-    public static func announceForAccessiblity(_ argument: String) {
-        DispatchQueue.main.asyncAfter(deadline: notificationPostDeadline) {
-            UIAccessibilityPostNotification(UIAccessibilityAnnouncementNotification, argument)
+    
+    /**
+     # announceForAccessiblity
+     - Author: suni
+     - Parameters:
+     - argument:
+     - postDeadline:
+     - Note:
+     */
+    public static func announceForAccessiblity(_ argument: String, _ postDeadline: DispatchTime = notificationPostDeadline) {
+        DispatchQueue.main.asyncAfter(deadline: postDeadline) {
+            UIAccessibility.post(notification: .announcement, argument: argument)
         }
     }
 }

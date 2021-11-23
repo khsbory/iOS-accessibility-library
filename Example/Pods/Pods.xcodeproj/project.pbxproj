@@ -15,7 +15,6 @@
 		8AB28B09F0D54260DE68FE8BA6D5F319 /* Pods-NVAccessibilitySolution_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 49EC7FFC2B746ED1CDDF874807F6D420 /* Pods-NVAccessibilitySolution_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AA0AEBB343934652A6CF9C0B761A5FA9 /* NVAccessibilitySolution-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D78CD2C2FD33E6FACD4ABDF18FBE6ACB /* NVAccessibilitySolution-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		AE3EE49146CEA5D10E36381A1C49FD55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
-		B42D62A07CB2AD110B52BADED52C9DE8 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48A4F4A4B13338E2741441A0C0D8C423 /* ReplaceMe.swift */; };
 		BC8EDCC99A353FB24967E4F13324BB9F /* Pods-NVAccessibilitySolution_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AF7504FD470993517F986D996249E2C /* Pods-NVAccessibilitySolution_Tests-dummy.m */; };
 		E9C4E07BE284A1E3D7169725EAB391BF /* Pods-NVAccessibilitySolution_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B0F5570FF928E2EF274D48B21C81D0F8 /* Pods-NVAccessibilitySolution_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
@@ -45,7 +44,6 @@
 		3C8B69208CC460B50ABD22156D81DD1F /* Pods_NVAccessibilitySolution_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NVAccessibilitySolution_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4044E0C939D474040128DF64A002BE0D /* Pods-NVAccessibilitySolution_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NVAccessibilitySolution_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		4336DAF89440F2C38C0717E628675724 /* NVAccessibilitySolution-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "NVAccessibilitySolution-Info.plist"; sourceTree = "<group>"; };
-		48A4F4A4B13338E2741441A0C0D8C423 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = NVAccessibilitySolution/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		49EC7FFC2B746ED1CDDF874807F6D420 /* Pods-NVAccessibilitySolution_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NVAccessibilitySolution_Tests-umbrella.h"; sourceTree = "<group>"; };
 		69B4ACEDFCB304CADF7F77DDF11445DA /* Pods-NVAccessibilitySolution_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-NVAccessibilitySolution_Tests.modulemap"; sourceTree = "<group>"; };
 		6CB8C881BA4507033319C8EB7D9AAEA2 /* Pods-NVAccessibilitySolution_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NVAccessibilitySolution_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -165,7 +163,6 @@
 			isa = PBXGroup;
 			children = (
 				860E62AD274B961600B06498 /* NVAccessibility.swift */,
-				48A4F4A4B13338E2741441A0C0D8C423 /* ReplaceMe.swift */,
 				0A66FB9804E9C01E37A32C5150DBFC94 /* Pod */,
 				DE63AC02DBD31089FA10EBE8A560E83C /* Support Files */,
 			);
@@ -401,7 +398,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F89B60F61FF0E8E98B9F0C80B2230A4 /* NVAccessibilitySolution-dummy.m in Sources */,
-				B42D62A07CB2AD110B52BADED52C9DE8 /* ReplaceMe.swift in Sources */,
 				860E62AE274B961600B06498 /* NVAccessibility.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -443,7 +439,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.1.0;
@@ -550,7 +546,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.1.0;
@@ -590,7 +586,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Tests/Pods-NVAccessibilitySolution_Tests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.1.0;
@@ -631,7 +627,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution.modulemap";
@@ -643,7 +639,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -669,7 +665,7 @@
 				GCC_PREFIX_HEADER = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MARKETING_VERSION = 0.1.0;
 				MODULEMAP_FILE = "Target Support Files/NVAccessibilitySolution/NVAccessibilitySolution.modulemap";
@@ -681,7 +677,7 @@
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -769,7 +765,7 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = "Target Support Files/Pods-NVAccessibilitySolution_Example/Pods-NVAccessibilitySolution_Example-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MARKETING_VERSION = 0.1.0;
