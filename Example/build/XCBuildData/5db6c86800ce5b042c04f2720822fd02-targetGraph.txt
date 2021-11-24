@@ -1,0 +1,7 @@
+Target dependency graph (4 targets)
+NVAccessibilitySolution in Pods, no dependencies
+NVAccessibilitySolution copy in Pods, no dependencies
+Pods-NVAccessibilitySolution_Example in Pods, depends on:
+NVAccessibilitySolution in Pods (explicit)
+Pods-NVAccessibilitySolution_Tests in Pods, depends on:
+Pods-NVAccessibilitySolution_Example in Pods (explicit)
