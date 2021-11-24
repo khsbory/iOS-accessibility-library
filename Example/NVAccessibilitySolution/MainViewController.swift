@@ -17,9 +17,9 @@ class MainViewController: UIViewController {
     
     @IBOutlet weak var tableView: UITableView!
     
-    var exampleTitles: [String] = ["Drag&Drop Demo"]
-    var exampleStoryBoardNames: [String] = ["DragNDrop"]
-    var exampleStoryBoardIds: [String] = ["DragNDropMain"]
+    var exampleTitles: [String] = ["밀기 동작에 대한 접근성 데모","UISlider 뮤직 플레이어 데모","테이블뷰 리로드에 대한 접근성 데모"]
+    var exampleStoryBoardNames: [String] = ["DragNDrop","MusicPlayerUsingUISlider","ReloadingTableView"]
+    var exampleStoryBoardIds: [String] = ["DragNDropMain","MusicPlayerUsingUISliderMain","ReloadingTableViewMain"]
     
     //MARK: Lifecycle
     override func viewDidLoad() {
