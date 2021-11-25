@@ -24,14 +24,15 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/khsbory/iOS-accessibility-library'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'suni' => 'hyunsun819@gmail.com }
-  s.source           = { :git => 'https://github.com/khsbory/iOS-accessibility-library', :tag => s.version.to_s }
+  s.author           = { 'suni' => 'hyunsun819@gmail.com' }
+  s.source           = { :git => 'https://github.com/khsbory/iOS-accessibility-library.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '15.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'NVAccessibilitySolution/Classes/**/*'
   
+  s.swift_versions = '5.0'
   # s.resource_bundles = {
   #   'NVAccessibilitySolution' => ['NVAccessibilitySolution/Assets/*.png']
   # }
