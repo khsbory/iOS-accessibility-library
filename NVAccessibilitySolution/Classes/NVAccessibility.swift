@@ -34,7 +34,7 @@ public struct NVAccessibility {
      - postDeadline:
      - Note:
      */
-    public static func announceForAccessiblity(_ argument: String, _ postDeadline: DispatchTime = notificationPostDeadline) {
+    public static func announceForAccessiblity(_ argument: String?, _ postDeadline: DispatchTime = notificationPostDeadline) {
         DispatchQueue.main.asyncAfter(deadline: postDeadline) {
             UIAccessibility.post(notification: .announcement, argument: argument)
         }
